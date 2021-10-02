@@ -10,10 +10,9 @@
 <body style="background-color: #F2F2F2">
     <div id="app">
         <blog-header></blog-header>
-        <carousel></carousel>
-        <about-me></about-me>
+        <router-view></router-view>
         <blog-footer></blog-footer>
     </div>
-<script src="./js/app.js"></script>
+<script src="/js/app.js"></script>
 </body>
 </html>

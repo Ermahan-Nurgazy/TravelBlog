@@ -1,5 +1,5 @@
 <template>
-    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide carousel-fade full-width-div" data-ride="carousel">
         <div class="carousel-inner" style="height: 500px;">
             <div class="carousel-item active">
                 <img :src="require('../../img/1.jpg').default" class="d-block w-100" alt="...">

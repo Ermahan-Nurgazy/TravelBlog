@@ -1,5 +1,5 @@
 <template>
-    <div class="footer mt-lg-5">
+    <div class="footer mt-lg-5" style=" bottom: 0; min-width: 100%;">
         <div class="bg-dark">
             <div class="container">
                 <div class="row p-1">

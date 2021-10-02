@@ -35,7 +35,11 @@ Vue.component('blog-footer', require('./components/Footer.vue').default);
 
 // styles
 import '../assets/bootstrap.min.css';
+import './bootstrap.js';
+
+import router from "./router";
 
 const app = new Vue({
     el: '#app',
+    router
 });
